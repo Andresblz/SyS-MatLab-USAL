@@ -1,3 +1,4 @@
+% SESIÓN 1 SEÑALES Y SISTEMAS
 % Ejercicio 3
 % Multiplicar, dividir y elevar al cuadrado elemento a 
 % elemento con 2 vectores
