@@ -1,3 +1,4 @@
+% SESIÓN 1 SEÑALES Y SISTEMAS
 % Ejercicio 2
 % Definir variables (Matrices y vectores)
 
