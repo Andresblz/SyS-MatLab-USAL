@@ -27,7 +27,7 @@ y1=A1*abs(H4(w1))*cos(w1*t+angle(H4(w1)))+...
    A2*abs(H4(w2))*cos(w2*t+angle(H4(w2)))+...
    A3*abs(H4(w3))*cos(w3*t+angle(H4(w3)));
 
-figure('Name','SEÑAL ORIGINAL [r] | SEÑAL ATENUADA [b]','NumberTitle','off');
+figure('Name','SEÑAL ORIGINAL [r] | SEÑAL SISTEMA [b]','NumberTitle','off');
 hold on
 plot(t,y,'r-')
 plot(t,y1,'b-')
