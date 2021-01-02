@@ -11,6 +11,7 @@ duration=100*2/f;   % Reemplazar por duration=100*2/f para escuchar más tiempo
 fs=2000*pi*2;       % Frecuencia de muestreo
 t=0:1/fs:duration;
 
+% Incremento t = 1/fs
 % Tres armonicos con el sonido 'LA'
 s1 = A*1*cos(2*pi*f*t);
 s2 = A*0.5*cos(2*2*pi*f*t);
@@ -35,6 +36,7 @@ pause();
 
 t=0:2/fs:duration;
 
+% Incremento t = 2/fs
 % Tres armonicos con el sonido 'LA'
 s1 = A*1*cos(2*pi*f*t);
 s2 = A*0.5*cos(2*2*pi*f*t);
@@ -59,6 +61,7 @@ pause();
 
 t=0:5/fs:duration;
 
+% Incremento t = 5/fs
 % Tres armonicos con el sonido 'LA'
 s1 = A*1*cos(2*pi*f*t);
 s2 = A*0.5*cos(2*2*pi*f*t);
