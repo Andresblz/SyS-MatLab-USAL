@@ -1,7 +1,7 @@
 function [t,y,w,coef]=triangular(V,tau,T,tmin,tmax,m)
 
-% Funcion para sumar la serie de Fourier de un tren de pulsos rectangulares
-% Version sin desplazamiento
+% Funcion para sumar la serie de Fourier de un tren de pulsos triangulares
+% Sin desplazamiento
 
 % coef: vector con los coeficientes de la serie
 % w: vector con las frecuencias de los armonicos
@@ -33,9 +33,3 @@ coef(1) = V*tau;
 
 % Serie de Fourier completa
 y = (2/T)*y+coef(1)/T;
-
-% figure(1)
-% plot(t,y, 'r');grid
-% title('Representacion del tren de pulsos rectangulares en el dominio del tiempo');
-% xlabel('tiempo');
-% ylabel('voltaje');
