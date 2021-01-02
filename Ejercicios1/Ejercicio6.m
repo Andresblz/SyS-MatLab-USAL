@@ -1,4 +1,4 @@
-% SESIÓN 1 SEÑALES Y SISTEMAS
+% SESIÓN 1 - SEÑALES Y SISTEMAS
 % Ejercicio 6
 % Producto de todos los elementos de un vector
 % cualquiera sin usar 'prod()'
