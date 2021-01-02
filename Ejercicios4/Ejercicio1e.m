@@ -1,7 +1,6 @@
-% SESIÓN 4 SEÑALES Y SISTEMAS
+% SESIÓN 4 - SEÑALES Y SISTEMAS
 % Ejercicio 1
 % Apartado e
-
 
 % FUNCIÓN rectangular_c
 % [t,y,w,coef]=rectangular_c(V,tau,T,tmin,tmax,m,t0)
@@ -25,7 +24,7 @@ hold on
 plot(t2,y2)
 hold off
 
-pause;
+pause();
 
 % Comparación de distorsión con w0 = 4*pi
 figure('Name','DISTORSION | w0 = 4*pi','NumberTitle','off');
@@ -40,7 +39,7 @@ hold on
 plot(t2,y2)
 hold off
 
-pause;
+pause();
 
 % Comparación de distorsión con w0 = 200*pi
 figure('Name','DISTORSION | w0 = 200*pi','NumberTitle','off');
