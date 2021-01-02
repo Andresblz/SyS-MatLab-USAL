@@ -1,4 +1,4 @@
-% SESIÓN 3 SEÑALES Y SISTEMAS
+% SESIÓN 3 - SEÑALES Y SISTEMAS
 % Ejercicio 1
 % Apartado c
 
@@ -17,5 +17,3 @@ hold on
 F2 = 5*0.5*((sin((0.5*w_esp)/2)./((0.5*w_esp)/2)));
 plot(w_esp,F2,'-r')
 hold off
-
-% Es un espectro continuo debido a que se trata de una señal NO periodica
