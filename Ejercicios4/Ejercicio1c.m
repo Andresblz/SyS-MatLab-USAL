@@ -22,7 +22,7 @@ plot(w,abs(sistema1),'-r')                                          % Con abs(si
 figure('Name','FASE | w0 = 4*pi/5','NumberTitle','off');
 plot(w,angle(sistema1),'-b')                                        % Con angle(sistema1) sacamos la parte imaginaria
 
-pause;
+pause();
 
 % Representación con w0 = 4*pi
 w0 = 4*pi;
@@ -32,7 +32,7 @@ plot(w,abs(sistema1),'-r')
 figure('Name','FASE | w0 = 4*pi','NumberTitle','off');
 plot(w,angle(sistema1),'-b')
 
-pause;
+pause();
 
 % Representación con w0 = 200*pi
 w0 = 200*pi;
