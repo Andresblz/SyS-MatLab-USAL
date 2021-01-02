@@ -1,4 +1,4 @@
-% SESIÓN 3 SEÑALES Y SISTEMAS
+% SESIÓN 3 - SEÑALES Y SISTEMAS
 % Ejercicio 2
 
 % FUNCIÓN inv_espectro
