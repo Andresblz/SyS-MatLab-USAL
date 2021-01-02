@@ -20,7 +20,6 @@ noverlap = L*0.9;
 figure('Name','ESPECTROGRAMA | Ventana: Hamming(2000) - Overlapping (2000*0.9)','NumberTitle','off');
 spectrogram(y, ventana, noverlap, [], fs, 'yaxis');
 
-
 L = 600;
 ventana = hamming(L);
 noverlap = L*0.2;
