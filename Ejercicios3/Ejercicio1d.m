@@ -1,4 +1,4 @@
-% SESIÓN 3 SEÑALES Y SISTEMAS
+% SESIÓN 3 - SEÑALES Y SISTEMAS
 % Ejercicio 1
 % Apartado d
 
