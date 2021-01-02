@@ -1,4 +1,4 @@
-% SESIÓN 4 SEÑALES Y SISTEMAS
+% SESIÓN 4 - SEÑALES Y SISTEMAS
 % Ejercicio 2
 % Apartado c
 
@@ -14,7 +14,6 @@ A3=1/4;
 
 y=A1*cos(w1*t)+A2*cos(w2*t)+A3*cos(w3*t);
 
-
 % ESPECTRO H2
 w=0:0.001:10*pi;    % w = inicio:incremento:fin
 figure('Name','ESPECTRO EN AMPLITUD','NumberTitle','off');
@@ -22,7 +21,7 @@ plot(w,abs(H2(w)))
 figure('Name','ESPECTRO EN FASE','NumberTitle','off');
 plot(w,angle(H2(w)))
 
-% SEÑAL PASADO POR EL SISTEMA
+% SEÑAL PASADA POR EL SISTEMA
 y1=A1*abs(H2(w1))*cos(w1*t+angle(H2(w1)))+...
    A2*abs(H2(w2))*cos(w2*t+angle(H2(w2)))+...
    A3*abs(H2(w3))*cos(w3*t+angle(H2(w3)));
