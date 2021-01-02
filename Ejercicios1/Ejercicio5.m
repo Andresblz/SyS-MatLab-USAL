@@ -1,4 +1,4 @@
-% SESIÓN 1 SEÑALES Y SISTEMAS
+% SESIÓN 1 - SEÑALES Y SISTEMAS
 % Ejercicio 5
 % Crear un vector con un bucle 'for'
 
