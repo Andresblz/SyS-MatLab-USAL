@@ -1,4 +1,4 @@
-% SESIÓN 4 SEÑALES Y SISTEMAS
+% SESIÓN 4 - SEÑALES Y SISTEMAS
 % Ejercicio 1
 % Apartado d
 
@@ -25,7 +25,7 @@ G1=F1.*sistema1;
 plot(w,abs(G1))
 hold off
 
-pause;
+pause();
 
 % Comparación con w0 = 4*pi
 figure('Name','DIFERENCIA ESPECTROS | w0=4*pi','NumberTitle','off');
@@ -39,7 +39,7 @@ G1=F1.*sistema1;
 plot(w,abs(G1))
 hold off
 
-pause;
+pause();
 
 % Comparación con w0 = 200*pi
 figure('Name','DIFERENCIA ESPECTROS | w0=200*pi','NumberTitle','off');
