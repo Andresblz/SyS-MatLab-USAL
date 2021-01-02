@@ -1,9 +1,9 @@
-% SESIÓN 3 SEÑALES Y SISTEMAS
+% SESIÓN 3 - SEÑALES Y SISTEMAS
 % Ejercicio 3
 
 % FUNCIÓN triangular
 % [t,y,w,coef]=triangular(V,tau,T,tmin,tmax,m)
-% 
+
 % Podemos utilizar la función triangular de la SESIÓN 2 para realizar este
 % ejercicio en vez de modificar rectangular_c
 
@@ -22,7 +22,7 @@ plot(t,y)
 figure('Name','ESPECTRO TRIANGULAR [τ = 0.5]','NumberTitle','off');
 plot(w_esp,abs(F))
 
-pause
+pause();
 
 % FUNCIÓN TRIANGULAR τ = 2
 [t,y,w,coef] = triangular(5,2,60,-3,3,400);
@@ -33,7 +33,7 @@ plot(t,y)
 figure('Name','ESPECTRO TRIANGULAR [τ = 0.5]','NumberTitle','off');
 plot(w_esp,abs(F))
 
-pause
+pause();
 
 % FUNCIÓN TRIANGULAR τ = 5
 [t,y,w,coef] = triangular(5,5,60,-3,3,400);
