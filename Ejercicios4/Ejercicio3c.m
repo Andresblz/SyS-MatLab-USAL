@@ -1,4 +1,4 @@
-% SESIÓN 4 SEÑALES Y SISTEMAS
+% SESIÓN 4 - SEÑALES Y SISTEMAS
 % Ejercicio 3
 % Apartado c
 
@@ -11,7 +11,6 @@
 
 % FUNCIÓN espectro
 % [w,F]=espectro(t,x,P)
-
 
 [t,y,tfin]=leeraudio('audio1.wav');
 % Reproducir el audio:
