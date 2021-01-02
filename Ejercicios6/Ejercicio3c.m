@@ -2,7 +2,6 @@
 % Ejercicio 3
 % Apartado c
 
-
 [y,fs] = audioread('starwars.wav');
 y = y(:,1);
 
