@@ -1,4 +1,4 @@
-% SESIÓN 4 SEÑALES Y SISTEMAS
+% SESIÓN 4 - SEÑALES Y SISTEMAS
 % Ejercicio 1
 % Apartado c
 
