@@ -22,7 +22,7 @@ plot(w,abs(H1(w)))
 figure('Name','ESPECTRO EN FASE','NumberTitle','off');
 plot(w,angle(H1(w)))
 
-% SEÑAL PASADO POR EL SISTEMA
+% SEÑAL PASADA POR EL SISTEMA
 y1=A1*abs(H1(w1))*cos(w1*t+angle(H1(w1)))+...
    A2*abs(H1(w2))*cos(w2*t+angle(H1(w2)))+...
    A3*abs(H1(w3))*cos(w3*t+angle(H1(w3)));
