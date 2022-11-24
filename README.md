@@ -1,12 +1,10 @@
 # SyS-MatLab-USAL
 
-_Prácticas realizadas durante la asignatura Señales y Sistemas._
+Prácticas realizadas durante la asignatura Señales y Sistemas.
 
-_Estos ejercicios serán resueltos en [MatLab](https://es.mathworks.com/products/matlab.html) con ayuda de diferentes funciones_
-_que se proporcionarán en clase._
+Estos ejercicios serán resueltos en [MatLab](https://es.mathworks.com/products/matlab.html) con ayuda de diferentes funciones que se proporcionarán en clase.
 
-_Tanto las funciones que se proporcionan en clase, como guías e informe no están incluidos en este repositorio_
-_por motivos obvios._
+Tanto las funciones que se proporcionan en clase, como guías e informe no están incluidos en este repositorio por motivos obvios.
 
 ---
 
